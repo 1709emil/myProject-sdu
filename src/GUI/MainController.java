@@ -20,6 +20,8 @@ public class MainController implements Initializable {
     }
     @FXML
     public void start(Game game){
+        System.out.println("bob");
+
         this.game = game;
     }
 
